@@ -1,0 +1,134 @@
+/* HEADER */
+
+.home__header {
+    background-color: var(--amarillo);
+    padding: 5px;
+    text-align: center;
+}
+
+.home__header--box-logo{
+    width: 200px;
+    margin: auto;
+}
+
+.home__header--logo {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.home__header--searchbar{
+    margin: 0 auto 20px;
+}
+
+input {
+    width: 150px;
+}
+
+.home__header--searchbar h3{
+    margin-top: 10px;
+}
+
+.home__header nav{
+    margin: 20px auto;
+}
+
+.burger-menu {
+    background-color: var(--celeste);
+    padding: 10px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.home__banner {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* MAIN */
+.home__main {
+    width: 100%;
+    background-color: var(--grisClaro);
+}
+
+.home__main__section--products {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.home__main__section--products h2 {
+    color: var(--grisOscuro);
+}
+
+.home__main img {
+    width: 100%;
+}
+
+.home__main__section__article-product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.home__main__section__article--info-product {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 500;
+    background-color: #fff;
+    border-top: 1px solid #ebebeb;
+}
+
+.home__main__section__article--truck i{
+    color: var(--verde);
+    border-radius: 50%;
+    border: 1px solid var(--verde);
+    padding: 8px;
+    font-size: 16px;
+}
+
+.home__main__section__article--info-product p {
+    font-size: 15px;
+}
+
+.home__main__section__article--info-product h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--grisOscuro);
+}
+
+.home__main__section__article--info-product-descuento {
+    color: var(--verde);
+} 
+
+/* FOOTER */
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 50px;
+    color: var(--grisOscuro);
+}
+
+
+footer a i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 16px;
+}
+
+.home__footer--description {
+    margin-bottom: 50px;
+}
+
+.copyright {
+    font-size: 10px;
+}
